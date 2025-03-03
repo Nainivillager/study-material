@@ -86,10 +86,10 @@ Vite, derived from the French word meaning "quick," is a modern build tool desig
 
   Vite supports several types of environment variable files:
 
-  .env: Loaded in all cases.
-  .env.local: Loaded in all cases, ignored by Git.
-  .env.[mode]: Loaded only in the specified mode.
-  .env.[mode].local: Loaded only in the specified mode, ignored by Git.
+  1. .env: Loaded in all cases.
+  2. .env.local: Loaded in all cases, ignored by Git.
+  3. .env.[mode]: Loaded only in the specified mode.
+  4. .env.[mode].local: Loaded only in the specified mode, ignored by Git.
   You can access environment variables using import.meta.env.SomeKey.
 
   If you create an .env.development.local file, the data will be visible in the browser.
@@ -109,18 +109,18 @@ Vite, derived from the French word meaning "quick," is a modern build tool desig
 
   To push your code to GitHub, follow these commands:
     ```
-    git init
-    git remote add origin https://<link-to-your-repository>
-    git branch -M main
-    git add .
-    git commit -m "Your commit message"
-    git push -u origin main
+    1. git init
+    2. git remote add origin https://<link-to-your-repository>
+    3. git branch -M main
+    4. git add .
+    5. git commit -m "Your commit message"
+    6. git push -u origin main
     ```
 
 ## Hosting on Vercel
 
   To host your Vite project on Vercel:
-
+  
   1. Create a new project on Vercel.
   2. Import your project from GitHub.
   3. Run the build command in the terminal:
