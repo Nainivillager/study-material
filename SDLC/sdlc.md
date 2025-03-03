@@ -1,6 +1,10 @@
 # Software Development Life Cycle (SDLC)
  **SDLC is a structured process for developing high-quality software efficiently and cost-effectively.
  It defines a systematic approach to software development, ensuring that the final product meets customer requirements.**
+
+   ## Workflow
+   **Requirement Gathering & Analysis → Planning → Design → Implementation → Testing → Deployment → Maintenance**
+
 ## Key Phases of SDLC:
 **1. Requirement Gathering & Analysis**
 - Stakeholders define software expectations.
@@ -36,7 +40,8 @@
 - Software updates, bug fixes, and enhancements are made.
 - Types of maintenance: Corrective, Adaptive, Preventive, and Perfective.
 - Output: Updated Software Versions.
-  
+
+
 ## Popular SDLC Models:
 
 **1. Waterfall Model**
