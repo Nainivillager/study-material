@@ -21,3 +21,12 @@ scanner is a class in java so in order to use that class we need to create an ob
 
 How do we make use of an class - by creating its object
 how do we perfomr any operation on that object - by using method
+
+byte - 1 byte - 8 bits - [-2^n-1 to (2^n-1) - 1](-128 to +124) = 256
+short - 2 byte - 16 bits - [-2^16-1 to (2^15) - 1] = 65536
+int - 4 byte - 32 bits -[-2^31 to 2^31 -1] = 4294967296
+long - 8 byte - 64 bits
+
+int a = 45 decimal(base-10)
+int a = 045 octal(base-8)
+int a = 0x45 hexadecimal(base-16)
