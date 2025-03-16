@@ -30,3 +30,5 @@ long - 8 byte - 64 bits
 int a = 45 decimal(base-10)
 int a = 045 octal(base-8)
 int a = 0x45 hexadecimal(base-16)
+
+using functions we can achiece modularity and code reusability
