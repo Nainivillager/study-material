@@ -88,9 +88,10 @@ example:
     public class DeepCopyExample{
         private int[] DCarr;
         public DeepCopyExample(int[] values){
-            DCarr = new DCarr(values.length)
+            <!-- DCarr = new DCarr(values.length)
             for(int i=0;i<DCarr.length;i++){
-                DCarr[i] = values[i];
+                DCarr[i] = values[i]; -->
+            // int[] DCarr = Arrays.copyOf(values,values.length);
             }
         }
         public void showData(){
